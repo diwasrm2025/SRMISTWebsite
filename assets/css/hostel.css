@@ -1,0 +1,131 @@
+
+
+
+/* ===== Welcome Section ===== */
+.welcome-section {
+  width: 100%;
+  padding: 60px 8%;
+}
+
+/* ===== Content Wrapper ===== */
+.welcome-content {
+  display: flex;
+  align-items: center;
+  gap:0px;
+  margin-bottom: 60px;
+}
+
+/* ===== Text Content ===== */
+.welcome-text {
+  flex: 1;
+  padding:60px 60px 60px 90px;
+  border:6px double #002c6dbe;
+  background:#e1eeff7e;
+}
+
+.welcome-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.welcome-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.welcome-text b {
+  color: #111827;
+}
+
+
+.welcome-image{
+    height:270px;
+    padding:0;
+    overflow:hidden;
+    width: 340px;
+    position:relative;
+    left:50px;
+    box-shadow:-15px -15px 0px var(--primary-blue) ,15px 15px 0px #e3e3e3;
+    transition:.6s;
+}
+.welcome-image img{
+    transition:.6s;
+}
+.welcome-content:hover .welcome-image{
+    box-shadow:-15px -15px 0px #e3e3e3,15px 15px 0px var(--primary-blue);
+}
+.welcome-content:hover .welcome-image img{
+    transform:scale(1.12);
+}
+.welcome-image img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index:100;
+    object-fit: cover;
+}
+
+
+/* ===== Image Section ===== */
+.welcome-image {
+  text-align: center;
+}
+
+
+
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 992px) {
+  .welcome-section {
+    padding: 50px 5%;
+  }
+
+  .welcome-content {
+    gap: 30px;
+  }
+
+  .welcome-text h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .welcome-image,.welcome-content:nth-child(even) .welcome-image{
+    left:0;
+  }
+  .welcome-text,.welcome-content:nth-child(even) .welcome-text{
+    padding:20px;
+  }
+  .welcome-image img {
+    max-width: 100%;
+  }
+
+  .welcome-text p {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-section {
+    padding: 40px 4%;
+  }
+
+  .welcome-text h2 {
+    font-size: 22px;
+  }
+
+  .welcome-text p {
+    font-size: 14px;
+  }
+}
+.text-left{
+    text-align:right;
+}
