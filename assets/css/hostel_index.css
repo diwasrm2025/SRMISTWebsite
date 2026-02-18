@@ -349,3 +349,135 @@
             display:none;
         }
     }
+
+
+    /* Dining Hours Section */
+    .dining-hours {
+        padding: 60px 0;
+        background: #ffffff;
+    }
+
+    .dining-hours .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .dining-list {
+        max-width: 600px;
+        margin: auto;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dining-list li {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+        margin-bottom: 12px;
+        background: #f5f7fa;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .dining-list li strong {
+        color: #003b7a;
+    }
+
+    /* Sports Section */
+    .sports {
+        padding: 60px 0;
+        background: #f9fbfd;
+    }
+
+    .sports-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .sport-card {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 14px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        transition: 0.3s;
+    }
+
+    .sport-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .sport-card h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #002855;
+    }
+
+    .sport-card p {
+        font-size: 15px;
+        color: #555;
+        font-weight: 500;
+    }
+
+    /* Policies Section */
+    .hostel-policies {
+        padding: 60px 0;
+        background: #ffffff;
+    }
+
+    .policy-list {
+        max-width: 900px;
+        margin: auto;
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 15px;
+    }
+
+    .policy-list li {
+        background: #f1f4f8;
+        padding: 15px 18px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #333;
+        position: relative;
+        padding-left: 35px;
+    }
+
+    /* Bullet Icon */
+    .policy-list li::before {
+        content: "✔";
+        position: absolute;
+        left: 12px;
+        color: #0052a3;
+        font-size: 14px;
+    }
+
+
+    /* Hostel Contact */
+    .hostel-contact {
+        padding: 60px 0;
+        background: #f9fbfd;
+        text-align: center;
+    }
+
+    .hostel-contact .section-title {
+        margin-bottom: 25px;
+    }
+
+    .hostel-contact p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    .hostel-contact strong {
+        color: #002855;
+    }
+
