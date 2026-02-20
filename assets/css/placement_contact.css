@@ -1,0 +1,24 @@
+    .placement-team-grid2
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .contact-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-direction:column;
+        margin:auto;
+        padding:10px 50px;
+    }
+
+    .contact-icons a {
+       display:flex;
+       align-items:center;
+       gap:14px;
+       color:black;
+    }

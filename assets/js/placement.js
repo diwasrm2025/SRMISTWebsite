@@ -42,7 +42,7 @@
                         { label: "Industrial Collaborations", url: "./mou.html" },
                         { label: "Career Development Centre", url: "./cdc.html" },
                         { label: "Meet Our Staff", url: "./placement_staff.html" },
-                        { label: "Contact", url: "./contact.html" }
+                        { label: "Contact", url: "./placement_contact.html" }
                 ]
             },
             whyChooseSRM: {
