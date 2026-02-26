@@ -257,7 +257,7 @@ body {
     display: grid;
     grid-template-columns: 200px 1fr;
     gap: 60px;
-   width: 70%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -267,8 +267,7 @@ body {
 
 .welcome-image img {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    height:190px;
     border: 6px solid var(--white);
     background: var(--white);
 }
