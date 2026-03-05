@@ -1,0 +1,44 @@
+.testimonials{
+    padding:70px 0;
+}
+
+
+/* Card */
+
+.testimonial-card{
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.testimonial-text{
+    font-size:17px;
+    line-height:1.7;
+    color:#333;
+}
+
+.testimonial-company{
+    font-size:14px;
+    color:#666;
+}
+
+/* Swiper buttons */
+
+.swiper-button-next,
+.swiper-button-prev{
+    color:#0f2c5c;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size:22px;
+    font-weight:1000;
+    background:white;
+    padding:10px 15px;
+    border-radius:100px;    
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size:22px;
+    font-weight:1000;
+    background:white;
+    padding:10px 15px;
+    border-radius:100px;    
+}
