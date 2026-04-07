@@ -2,7 +2,7 @@
             siteConfig: {
                 description: "SRM Institute of Science and Technology Career Centre",
                 logo: "./assets/images/srm-1920w.webp",
-                contactEmail: "placementsrmtrchy@srmist.edu.in",
+                contactEmail: "madhavat1@srmist.edu.in",
                 contactPhone: "1800 202 4565",
                 helpdeskEmail: "helpdesk@ist.srmtrichy.edu.in"
             },

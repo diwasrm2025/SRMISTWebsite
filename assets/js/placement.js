@@ -3,7 +3,7 @@
                 title: "SRM Career Centre - Global Skills for Global Placements",
                 description: "SRM Institute of Science and Technology Career Centre",
                 logo: "./assets/images/srm-1920w.webp",
-                contactEmail: "placementsrmtrchy@srmist.edu.in",
+                contactEmail: "madhavat1@srmist.edu.in",
                 contactPhone: "1800 202 4565",
                 helpdeskEmail: "helpdesk@ist.srmtrichy.edu.in"
             },
@@ -40,8 +40,9 @@
                         { label: "Activities", url: "./activities.html" },
                         { label: "Placement Statistics", url: "./placement_stats.html" },
                         { label: "Industrial Collaborations", url: "./mou.html" },
-                        { label: "Career Development Centre", url: "./cdc.html" },
                         { label: "Meet Our Staff", url: "./placement_staff.html" },
+                        { label: "Career Development Centre", url: "./cdc.html" },
+                        { label: "CDC Team", url: "./cdcteam.html" },
                         { label: "Contact", url: "./placement_contact.html" }
                 ]
             },
@@ -102,7 +103,7 @@
                     line2:"SRM Nagar,   " ,
                     line3: "Chennai - Trichy Hwy,Dist,",
                     line4: "Irungalur, Tamil Nadu 621105",
-                    email: "placementsrmtrchy@srmist.edu.in"
+                    email: "madhavat1@srmist.edu.in"
                 },
                 image: "https://images.unsplash.com/photo-1562564055-71e051d33c19?w=400"
             },
