@@ -63,35 +63,40 @@
                         name: "Kushagra Singh",
                         degree: "B. Tech - CSE",
                         company: "Senior consultant in Microsoft Analyst in Infilure",
-                        text: "SRM has helped me in amplify my skills in various directions. The ambient culture of SRM helped me become well of various student learns and startups which eventually helped me to become a good team player."
+                        text: "SRM has helped me in amplify my skills in various directions. The ambient culture of SRM helped me become well of various student learns and startups which eventually helped me to become a good team player.",
+                        video:"1"
                     },
                     {
                         id: 2,
                         name: "Priya Sharma",
                         degree: "B. Tech - ECE",
                         company: "Software Engineer at Google",
-                        text: "The placement cell at SRM provided excellent training and preparation for interviews. The faculty's constant support and industry exposure through workshops helped me secure my dream job."
+                        text: "The placement cell at SRM provided excellent training and preparation for interviews. The faculty's constant support and industry exposure through workshops helped me secure my dream job.",
+                        video:"1"
                     },
                     {
                         id: 3,
                         name: "Rahul Verma",
                         degree: "MBA",
                         company: "Business Analyst at Deloitte",
-                        text: "SRM Institute has been instrumental in shaping my career. The comprehensive curriculum, combined with practical exposure through internships and live projects, prepared me well for the corporate world."
+                        text: "SRM Institute has been instrumental in shaping my career. The comprehensive curriculum, combined with practical exposure through internships and live projects, prepared me well for the corporate world.",
+                        video:"1"
                     },
                     {
                         id: 4,
                         name: "Anjali Reddy",
                         degree: "B. Tech - IT",
                         company: "Data Scientist at Amazon",
-                        text: "The technical skills and soft skills training I received at SRM were exceptional. The placement team worked tirelessly to bring top companies to campus."
+                        text: "The technical skills and soft skills training I received at SRM were exceptional. The placement team worked tirelessly to bring top companies to campus.",
+                        video:"1"
                     },
                     {
                         id: 5,
                         name: "Vikram Patel",
                         degree: "B. Tech - Mechanical",
                         company: "Design Engineer at Tata Motors",
-                        text: "SRM's focus on practical learning and industry collaboration gave me a competitive edge. The state-of-the-art laboratories and experienced faculty helped me develop both theoretical knowledge and practical skills."
+                        text: "SRM's focus on practical learning and industry collaboration gave me a competitive edge. The state-of-the-art laboratories and experienced faculty helped me develop both theoretical knowledge and practical skills.",
+                        video:"1"
                     }
                 ]
             },
@@ -292,12 +297,13 @@
                 html += `
                     <div class="swiper-slide">
                         <div class="testimonial-card">
-                            <div class="quote-icon">
-                                <i class="fas fa-quote-left"></i>
-                            </div>
-                            <h3>${testimonial.name}, ${testimonial.degree}</h3>
+                           
+                            <!--<h3>${testimonial.name}, ${testimonial.degree}</h3>
                             <p class="testimonial-company">${testimonial.company}</p>
-                            <p class="testimonial-text">${testimonial.text}</p>
+                            <p class="testimonial-text">${testimonial.text}</p>-->
+                            <video controls autoplay muted loop class="testimonial-video" style="width:100%;border-radius:10px;">
+                                <source src="./assets/video/testimonial/${testimonial.video}.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                 `;
@@ -354,7 +360,7 @@
 
         // Initialize Testimonial Swiper
         function initializeTestimonialSwiper() {
-            new Swiper('.testimonial-swiper', {
+            const swiper = new Swiper('.testimonial-swiper', {
                 slidesPerView: 1,
                 spaceBetween: 30,
                 loop: true,
@@ -372,6 +378,17 @@
                 },
                 speed: 800
             });
+
+            // Stop autoplay on hover
+            const swiperContainer = document.querySelector('.testimonial-swiper');
+            if (swiperContainer) {
+                swiperContainer.addEventListener('mouseenter', () => {
+                    swiper.autoplay.stop();
+                });
+                swiperContainer.addEventListener('mouseleave', () => {
+                    swiper.autoplay.start();
+                });
+            }
         }
 
         // Initialize Counter Animations
