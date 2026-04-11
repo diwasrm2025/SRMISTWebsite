@@ -31,9 +31,9 @@ activity_content.map((e,i)=>{
         <div class="img">
             <img src="./assets/images/activities/${i+1}.png" alt="">
         </div>
-        <div class="activities-content">
+        <!--<div class="activities-content">
             <h3>${e.title}</h3>
-        </div>
+        </div>-->
     </div>`
 })
     

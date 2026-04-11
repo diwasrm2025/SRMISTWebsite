@@ -17,10 +17,10 @@
                 ],
                 stats: [
                     { icon: "fa-briefcase", count: "144+", label: "Number of Roles" ,suffix:""},
-                    { icon: "fa-file-alt", count: "10190+", label: "Offers" ,suffix:""},
-                    { icon: "fa-award", count: "211+", label: "High Paying Offers" ,suffix:""},
-                    { icon: "fa-trophy", count: "65", label: "Highest CTC" ,suffix:" LPA"},
-                    { icon: "fa-chart-line", count: "6.5", label: "Average CTC" ,suffix:".5 LPA"}
+                    { icon: "fa-file-alt", count: "1000+", label: "Offers" ,suffix:""},
+                    { icon: "fa-award", count: "24+", label: "High Paying Offers" ,suffix:""},
+                    { icon: "fa-trophy", count: "53", label: "Highest CTC" ,suffix:" LPA"},
+                    { icon: "fa-chart-line", count: "5", label: "Average CTC" ,suffix:".7 LPA"}
                 ]
             },
 

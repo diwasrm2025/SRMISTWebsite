@@ -772,7 +772,7 @@
         text-align: center;
     }
 
-    .stats-count, .lpa {
+    .stats-count,.stats-count1, .lpa {
         font-size: 32px;
         font-weight: 700;
         margin-bottom: 10px;
